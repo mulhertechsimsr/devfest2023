@@ -1,0 +1,28 @@
+a {
+    color: var(--Black, #303031);
+    font-family: 'Product Sans', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.4px;
+}
+
+li{
+    margin-right: 64px;
+}
+
+.primary_button{
+    height: 52px;
+    border-radius: 6px !important;
+    background-color: #4285F4 !important;
+    padding: 15px 18px !important;
+    color: #FFF !important;
+    font-family: 'Product Sans', sans-serif !important;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}
+
