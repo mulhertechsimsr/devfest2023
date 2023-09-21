@@ -7,14 +7,23 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from './shared/material/material.module';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { HomeComponent } from './pages/home/home.component';
+import { HeaderComponent } from './pages/header/header.component';
+import { EventoComponent } from './pages/evento/evento.component';
+import { PalestrantesComponent } from './pages/palestrantes/palestrantes.component';
+import { CarouselModule } from 'primeng/carousel';
+import { ParceriasComponent } from './pages/parcerias/parcerias.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    HomeComponent
+    HeaderComponent,
+    EventoComponent,
+    PalestrantesComponent,
+    ParceriasComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -23,7 +32,8 @@ import { HomeComponent } from './pages/home/home.component';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
-    MaterialModule
+    MaterialModule,
+    CarouselModule
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
